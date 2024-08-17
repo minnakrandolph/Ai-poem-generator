@@ -1,10 +1,17 @@
 
-
+.container {
+    margin: 120px auto;
+    max-width: 600px;
+}
 
 h1 {
-    color:rgb(1, 109, 77); 
+    color:rgb(90, 68, 32); 
+}
+
+.poem {
+    color:rgb(90, 68, 32);
 }
 
 body {
-    background-color:rgb(223, 236, 231);
+    background-color:rgb(243, 243, 244);
 }
