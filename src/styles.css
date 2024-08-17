@@ -5,13 +5,68 @@
 }
 
 h1 {
+    text-align: right;
+    font-family: Roboto;
     color:rgb(90, 68, 32); 
+    opacity: 75%;
+    font-size: 36px;
+    font-weight: 350;
+}
+
+
+
+form {
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0px 20px 60px rgba(50, 51, 100, 0.08);
+    margin-bottom: 30px;
+}
+
+.instructions {
+    padding: 10px;
+    border: 1px solid #ffff;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 50px;
+    line-height: 20px;
+}
+
+.submit-button {
+    margin-left: 10px;
+    background: #e3b37d;
+    color:white ;
+    border: none;
+    border-radius: 30px;
+    width: 100px; 
+
+
 }
 
 .poem {
+    font-size: 14px; 
+    color:rgb(90, 68, 32);
+    font-family: monospace;
+    line-height: 24px;
+    
+    
+}
+
+footer {
+    color:rgb(126, 107, 90);
+}
+
+footer {
+    text-align: right;
+    font-size: 10px;
+}
+
+footer a {
+    
     color:rgb(90, 68, 32);
 }
 
 body {
-    background-color:rgb(243, 243, 244);
+    background-color:#f3f3e4;
 }
