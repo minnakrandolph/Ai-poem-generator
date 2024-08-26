@@ -24,9 +24,9 @@ function generatePoem(event) {
     poemElement.classList.remove("hidden");
     poemElement.innerHTML = `<div class="generating"> ⏳Here is a poem about ${instructionsInput.value}! </div>`;
 
-    console.log("Generating poem");
-    console.log(`Prompt: ${prompt}`);
-    console.log(`Prompt: ${context}`);
+    //console.log("Generating poem");
+    //console.log(`Prompt: ${prompt}`);
+    //console.log(`Prompt: ${context}`);
    
     // Make a call to the APi using axios
     axios.get(apiUrl).then(displayPoem);
